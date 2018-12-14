@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="firstText">Linear Layout Horizontal</string>
+    <string name="secondText">Relative Layout</string>
+    <string name="thirdText">Linear Layout Vertical</string>
+    <string name="fourthText">Constraint Layout</string>
+    <string name="circle">O</string>
+    <string name="fi">R</string>
+</resources>
