@@ -18,7 +18,23 @@
 
 
         <TextView
+            android:id="@+id/firstTextSec"
+            android:gravity="center"
+            android:hint="@string/firstText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"/>
+
+        <TextView
             android:id="@+id/firstText"
+            android:gravity="center"
+            android:hint="@string/firstText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"/>
+
+        <TextView
+            android:id="@+id/firstTextTh"
             android:gravity="center"
             android:hint="@string/firstText"
             android:layout_width="wrap_content"
@@ -31,15 +47,46 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_rowWeight="1"
-        android:layout_columnWeight="1"
-        android:gravity="center">
+        android:layout_columnWeight="1">
 
         <TextView
             android:id="@+id/secondText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:hint="@string/secondText" />
+
+        <TextView
+            android:id="@+id/secondTextSec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:hint="@string/secondText" />
+
+        <TextView
+            android:id="@+id/secondTextTh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:hint="@string/secondText" />
+
+        <TextView
+            android:id="@+id/secondTextFor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:hint="@string/secondText" />
+
+        <TextView
+            android:id="@+id/secondTextFif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
             android:gravity="center"
             android:hint="@string/secondText" />
 
@@ -55,7 +102,21 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/thirdTextSec"
+            android:hint="@string/thirdText"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"/>
+        <TextView
             android:id="@+id/thirdText"
+            android:hint="@string/thirdText"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/thirdTextTh"
             android:hint="@string/thirdText"
             android:gravity="center"
             android:layout_width="wrap_content"
@@ -87,8 +148,8 @@
             android:text="@string/circle"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            app:layout_constraintStart_toStartOf="parent"
             android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>
